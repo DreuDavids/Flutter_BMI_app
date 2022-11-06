@@ -6,8 +6,26 @@ const defaultLabelTextStyle = TextStyle(
   fontSize: 18,
   color: Color(0xFF8D8E98),
 );
+
 const defaultNumberTextStyle =
     TextStyle(fontSize: 50, fontWeight: FontWeight.w900);
+
+const defaultLargeButtonTextStyle =
+    TextStyle(fontSize: 25, letterSpacing: 3, fontWeight: FontWeight.bold);
+
+const defaultResultTitleTextStyle =
+    TextStyle(fontSize: 50, fontWeight: FontWeight.bold);
+
+const defaultBMITextStyle =
+    TextStyle(fontSize: 100, fontWeight: FontWeight.bold);
+
+const defaultResultTextStyle = TextStyle(
+    color: Colors.orangeAccent, fontSize: 22, fontWeight: FontWeight.bold);
+
+const defaultBodyTextStyle = TextStyle(fontSize: 20);
+
+const defaultBMIsubTitleTextStyle =
+    TextStyle(color: Colors.orangeAccent, letterSpacing: 3, fontSize: 20);
 
 //APP BAR Title style
 const defaultAppTitleTextStyle = TextStyle(letterSpacing: 3);
