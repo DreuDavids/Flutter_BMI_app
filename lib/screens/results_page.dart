@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:bmi/constants.dart';
 
 class ResultsPage extends StatelessWidget {
-  ResultsPage(
+  const ResultsPage(
       {required this.bmiResult,
       required this.resultText,
       required this.analysis});
@@ -28,9 +28,9 @@ class ResultsPage extends StatelessWidget {
                     children: [
                       Expanded(
                         child: Container(
-                          padding: EdgeInsets.all(15),
+                          padding: const EdgeInsets.all(15),
                           alignment: Alignment.bottomCenter,
-                          child: Text(
+                          child: const Text(
                             'Your Result',
                             style: defaultResultTitleTextStyle,
                           ),
@@ -51,7 +51,7 @@ class ResultsPage extends StatelessWidget {
                                 ),
                                 Column(
                                   children: [
-                                    Text(
+                                    const Text(
                                       'BMI',
                                       style: defaultBMIsubTitleTextStyle,
                                     ),

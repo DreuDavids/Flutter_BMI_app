@@ -1,4 +1,3 @@
-import 'package:bmi/input_page.dart';
 import 'package:bmi/reusable_card.dart';
 import 'package:flutter/material.dart';
 
@@ -25,7 +24,7 @@ class ResultsPage extends StatelessWidget {
                       padding: EdgeInsets.symmetric(horizontal: 20.0),
                       child: Text(
                         'Your Result',
-                        style: defaultNumberTextStyle,
+                        style: defaultTitleLabelTextStyle,
                       ),
                     ),
                     Expanded(
@@ -45,7 +44,7 @@ class ResultsPage extends StatelessWidget {
                         child: const Center(
                           child: Text(
                             'RE-Calculate',
-                            style: defaultNumberTextStyle,
+                            style: defaultTitleLabelTextStyle,
                           ),
                         ),
                       ),

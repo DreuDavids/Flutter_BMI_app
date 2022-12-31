@@ -27,6 +27,9 @@ const defaultBodyTextStyle = TextStyle(fontSize: 20);
 const defaultBMIsubTitleTextStyle =
     TextStyle(color: Colors.orangeAccent, letterSpacing: 3, fontSize: 20);
 
+const defaultTitleLabelTextStyle =
+    TextStyle(fontSize: 30, fontWeight: FontWeight.w500, letterSpacing: 3);
+
 //APP BAR Title style
 const defaultAppTitleTextStyle = TextStyle(letterSpacing: 3);
 

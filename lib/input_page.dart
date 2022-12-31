@@ -4,6 +4,7 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'constants.dart';
 import 'icon_content.dart';
 import 'reusable_card.dart';
+import 'components/round_button.dart';
 
 enum Gender { male, female }
 
@@ -220,7 +221,7 @@ class _InputPageState extends State<InputPage> {
                                             age < 110 ? age++ : age = 110;
                                           });
                                         },
-                                      )
+                                      ),
                                     ],
                                   )
                                 ],
@@ -245,11 +246,11 @@ class _InputPageState extends State<InputPage> {
                         child: const Center(
                           child: Text(
                             'Calculate',
-                            style: defaultNumberTextStyle,
+                            style: defaultTitleLabelTextStyle,
                           ),
                         ),
                       ),
-                    )
+                    ),
                   ],
                 ),
               ),
@@ -257,28 +258,6 @@ class _InputPageState extends State<InputPage> {
           );
         },
       ),
-    );
-  }
-}
-
-class RoundIconButton extends StatelessWidget {
-  const RoundIconButton({super.key, required this.icon, required this.onPress});
-
-  final IconData? icon;
-  final Function()? onPress;
-
-  @override
-  Widget build(BuildContext context) {
-    return RawMaterialButton(
-      constraints: const BoxConstraints.tightFor(
-        width: 56.0,
-        height: 56.0,
-      ),
-      shape: const CircleBorder(),
-      fillColor: Colors.orange,
-      elevation: 0,
-      onPressed: onPress,
-      child: Icon(icon),
     );
   }
 }
