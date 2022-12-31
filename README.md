@@ -2,11 +2,11 @@
 ## About 
 Developed a simple body mass index calculator using flutter, where users can input their weight, height, gender and age and calculate their BMI
 
-##Snapshots
+## Snapshots
 ![Screenshots](/snapshots/snapshot1.jpg)
 ![Screenshots](/snapshots/snapshot2.jpg)
 
-#Configuration steps
+## Configuration steps
 
 1.Open the project and install dependencies (using terminal):
 
